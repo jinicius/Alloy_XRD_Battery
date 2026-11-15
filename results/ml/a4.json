@@ -1,0 +1,90 @@
+{
+ "data": {
+  "time_h": [
+   3.0,
+   6.0,
+   12.0,
+   18.0,
+   36.0,
+   48.0
+  ],
+  "capacity": [
+   185.14008,
+   195.72177,
+   205.3,
+   208.5361,
+   219.0955,
+   223.2427
+  ],
+  "retention50": [
+   100.11468,
+   99.92278,
+   95.04773,
+   92.99495,
+   87.67866,
+   74.90055
+  ],
+  "RS_wt%": [
+   20.1,
+   13.0,
+   7.3,
+   5.1,
+   2.3,
+   2.2
+  ],
+  "DS_L_nm": [
+   20.8,
+   26.6,
+   38.5,
+   43.5,
+   56.9,
+   66.5
+  ]
+ },
+ "spearman_RS_wt%_vs_capacity": -1.0,
+ "spearman_RS_wt%_vs_retention": 1.0,
+ "spearman_DS_L_nm_vs_capacity": 1.0,
+ "spearman_DS_L_nm_vs_retention": -1.0,
+ "spearman_log_time_vs_capacity": 1.0,
+ "spearman_log_time_vs_retention": -1.0,
+ "LOO_R2_RMSE": {
+  "log t \u2192 RS": [
+   0.979,
+   0.93
+  ],
+  "log t \u2192 capacity": [
+   0.973,
+   2.13
+  ],
+  "log t \u2192 retention": [
+   0.516,
+   6.02
+  ],
+  "RS \u2192 capacity": [
+   0.499,
+   9.22
+  ],
+  "RS \u2192 retention": [
+   -0.277,
+   9.78
+  ]
+ },
+ "retained_capacity_opt_time_h": {
+  "median": 21.8,
+  "CI95": [
+   11.8,
+   57.3
+  ]
+ },
+ "retained_capacity_max_mean": 194.3,
+ "at_time_h": 12.1,
+ "max_capacity_with_P(ret\u226595%)\u22650.9": null,
+ "observed_retained": {
+  "3h": 185.4,
+  "6h": 195.6,
+  "12h": 195.1,
+  "18h": 193.9,
+  "36h": 192.1,
+  "48h": 167.2
+ }
+}

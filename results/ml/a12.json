@@ -1,0 +1,307 @@
+{
+ "mix_test": {
+  "s-LNO": {
+   "V0": 4.206,
+   "V1": 4.416,
+   "Vm": 4.303,
+   "w": [
+    0.346,
+    0.279
+   ],
+   "R2": -0.3044
+  },
+  "d-LNO": {
+   "V0": 4.209,
+   "V1": 4.4,
+   "Vm": 4.297,
+   "w": [
+    0.754,
+    0.281
+   ],
+   "R2": 0.9761
+  }
+ },
+ "nmf_explained_dLNO_dense_4.15-4.50": [
+  0.033,
+  0.9641,
+  0.9983,
+  0.9999,
+  1.0
+ ],
+ "nmf_frames_in_window": {
+  "s-LNO": 4,
+  "d-LNO dense": 20
+ },
+ "bic": [
+  {
+   "sample": "s-LNO",
+   "V": 4.007,
+   "dBIC": 53.6,
+   "minor_share": 0.3,
+   "sep_FWHM": 0.21,
+   "c_1peak": 14.408,
+   "c_err": 0.0003
+  },
+  {
+   "sample": "s-LNO",
+   "V": 4.097,
+   "dBIC": 44.5,
+   "minor_share": 0.266,
+   "sep_FWHM": 0.22,
+   "c_1peak": 14.404,
+   "c_err": 0.0003
+  },
+  {
+   "sample": "s-LNO",
+   "V": 4.206,
+   "dBIC": 57.0,
+   "minor_share": 0.196,
+   "sep_FWHM": 0.29,
+   "c_1peak": 14.358,
+   "c_err": 0.0003
+  },
+  {
+   "sample": "s-LNO",
+   "V": 4.303,
+   "dBIC": 201.3,
+   "minor_share": 0.101,
+   "sep_FWHM": 0.85,
+   "c_1peak": 13.973,
+   "c_err": 0.0035
+  },
+  {
+   "sample": "s-LNO",
+   "V": 4.416,
+   "dBIC": 72.6,
+   "minor_share": 0.194,
+   "sep_FWHM": 0.47,
+   "c_1peak": 13.505,
+   "c_err": 0.0008
+  },
+  {
+   "sample": "s-LNO",
+   "V": 4.494,
+   "dBIC": 83.4,
+   "minor_share": 0.351,
+   "sep_FWHM": 0.35,
+   "c_1peak": 13.441,
+   "c_err": 0.0006
+  },
+  {
+   "sample": "s-LNO",
+   "V": 4.616,
+   "dBIC": 60.1,
+   "minor_share": 0.057,
+   "sep_FWHM": 1.65,
+   "c_1peak": 13.425,
+   "c_err": 0.0011
+  },
+  {
+   "sample": "s-LNO",
+   "V": 4.74,
+   "dBIC": 85.5,
+   "minor_share": 0.071,
+   "sep_FWHM": 1.61,
+   "c_1peak": 13.41,
+   "c_err": 0.0013
+  },
+  {
+   "sample": "s-LNO",
+   "V": 4.79,
+   "dBIC": 79.8,
+   "minor_share": 0.067,
+   "sep_FWHM": 1.63,
+   "c_1peak": 13.408,
+   "c_err": 0.0013
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.001,
+   "dBIC": 126.3,
+   "minor_share": 0.355,
+   "sep_FWHM": 0.03,
+   "c_1peak": 14.218,
+   "c_err": 0.0007
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.096,
+   "dBIC": 95.0,
+   "minor_share": 0.328,
+   "sep_FWHM": 0.02,
+   "c_1peak": 14.217,
+   "c_err": 0.0006
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.209,
+   "dBIC": 63.8,
+   "minor_share": 0.304,
+   "sep_FWHM": 0.0,
+   "c_1peak": 14.19,
+   "c_err": 0.0006
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.297,
+   "dBIC": 87.5,
+   "minor_share": 0.328,
+   "sep_FWHM": 0.31,
+   "c_1peak": 14.103,
+   "c_err": 0.0011
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.4,
+   "dBIC": 103.0,
+   "minor_share": 0.098,
+   "sep_FWHM": 1.46,
+   "c_1peak": 13.807,
+   "c_err": 0.0011
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.5,
+   "dBIC": 87.8,
+   "minor_share": 0.166,
+   "sep_FWHM": 1.38,
+   "c_1peak": 13.705,
+   "c_err": 0.0012
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.62,
+   "dBIC": 90.2,
+   "minor_share": 0.198,
+   "sep_FWHM": 1.18,
+   "c_1peak": 13.634,
+   "c_err": 0.0013
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.71,
+   "dBIC": 83.1,
+   "minor_share": 0.357,
+   "sep_FWHM": 0.93,
+   "c_1peak": 13.605,
+   "c_err": 0.0013
+  },
+  {
+   "sample": "d-LNO",
+   "V": 4.8,
+   "dBIC": 83.8,
+   "minor_share": 0.345,
+   "sep_FWHM": 0.96,
+   "c_1peak": 13.588,
+   "c_err": 0.0014
+  },
+  {
+   "sample": "project A",
+   "V": 4.08,
+   "dBIC": -19.8,
+   "minor_share": 0.0,
+   "sep_FWHM": 6.54,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project A",
+   "V": 4.3,
+   "dBIC": 2159.7,
+   "minor_share": 0.448,
+   "sep_FWHM": 10.58,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project A",
+   "V": 4.5,
+   "dBIC": -17.8,
+   "minor_share": 0.001,
+   "sep_FWHM": 8.99,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project A",
+   "V": 4.8,
+   "dBIC": -17.5,
+   "minor_share": 0.0,
+   "sep_FWHM": 7.87,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project B",
+   "V": 4.08,
+   "dBIC": -20.2,
+   "minor_share": 0.001,
+   "sep_FWHM": 9.66,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project B",
+   "V": 4.3,
+   "dBIC": 1707.2,
+   "minor_share": 0.313,
+   "sep_FWHM": 4.48,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project B",
+   "V": 4.5,
+   "dBIC": -17.3,
+   "minor_share": 0.002,
+   "sep_FWHM": 3.36,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project B",
+   "V": 4.8,
+   "dBIC": -15.3,
+   "minor_share": 0.0,
+   "sep_FWHM": 12.5,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project C",
+   "V": 4.08,
+   "dBIC": -18.2,
+   "minor_share": 0.001,
+   "sep_FWHM": 7.34,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project C",
+   "V": 4.3,
+   "dBIC": -13.0,
+   "minor_share": 0.001,
+   "sep_FWHM": 3.02,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project C",
+   "V": 4.5,
+   "dBIC": -16.5,
+   "minor_share": 0.001,
+   "sep_FWHM": 6.82,
+   "c_1peak": null,
+   "c_err": null
+  },
+  {
+   "sample": "project C",
+   "V": 4.8,
+   "dBIC": -17.5,
+   "minor_share": 0.0,
+   "sep_FWHM": 7.8,
+   "c_1peak": null,
+   "c_err": null
+  }
+ ]
+}

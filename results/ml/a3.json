@@ -1,0 +1,88 @@
+{
+ "s-LNO": {
+  "onset": 4.22,
+  "end": 4.4,
+  "onset_CI": [
+   4.21,
+   4.23
+  ],
+  "end_CI": [
+   4.39,
+   4.41
+  ],
+  "width": 0.18,
+  "slope_mid": 4.88,
+  "drop_mid": 0.878,
+  "n": 23,
+  "dQdV_peak_V": 4.185,
+  "dQdV_peak": 1167.3,
+  "dQdV_FWHM_V": 0.02
+ },
+ "d-LNO": {
+  "onset": 4.29,
+  "end": 4.43,
+  "onset_CI": [
+   4.28,
+   4.3
+  ],
+  "end_CI": [
+   4.42,
+   4.44
+  ],
+  "width": 0.14,
+  "slope_mid": 2.93,
+  "drop_mid": 0.41,
+  "n": 37,
+  "dQdV_peak_V": 4.199,
+  "dQdV_peak": 329.2,
+  "dQdV_FWHM_V": 0.04
+ },
+ "project A": {
+  "onset": 4.245,
+  "end": 4.35,
+  "onset_CI": [
+   4.24,
+   4.24
+  ],
+  "end_CI": [
+   4.35,
+   4.35
+  ],
+  "width": 0.105,
+  "slope_mid": 6.15,
+  "drop_mid": 0.646,
+  "n": 16
+ },
+ "project B": {
+  "onset": 4.2,
+  "end": 4.495,
+  "onset_CI": [
+   4.2,
+   4.2
+  ],
+  "end_CI": [
+   4.49,
+   4.5
+  ],
+  "width": 0.295,
+  "slope_mid": 2.21,
+  "drop_mid": 0.653,
+  "n": 16
+ },
+ "project C": {
+  "onset": 4.205,
+  "end": 4.505,
+  "onset_CI": [
+   4.2,
+   4.21
+  ],
+  "end_CI": [
+   4.49,
+   4.51
+  ],
+  "width": 0.3,
+  "slope_mid": 1.28,
+  "drop_mid": 0.385,
+  "n": 16
+ }
+}

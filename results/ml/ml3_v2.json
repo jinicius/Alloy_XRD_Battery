@@ -1,0 +1,70 @@
+{
+ "shape_bic_all_above_10": {
+  "sym": true,
+  "split": true
+ },
+ "summary": [
+  {
+   "sample": "s-LNO",
+   "max_misfit_1phase": 0.008576353103711342,
+   "at_V": 4.303,
+   "dc_at_max": NaN,
+   "minor_share_at_max": NaN,
+   "gain_2phase": 0.2432971707511782,
+   "max_sigma_c": 0.2242,
+   "retention_300": 55.5,
+   "two_phase": "n/a"
+  },
+  {
+   "sample": "d-LNO",
+   "max_misfit_1phase": 0.0011226025577516132,
+   "at_V": 4.297,
+   "dc_at_max": NaN,
+   "minor_share_at_max": NaN,
+   "gain_2phase": 0.2766721875270089,
+   "max_sigma_c": 0.1474,
+   "retention_300": 96.2,
+   "two_phase": "n/a"
+  },
+  {
+   "sample": "project A",
+   "max_misfit_1phase": 0.4227494402342161,
+   "at_V": 4.3,
+   "dc_at_max": 0.503,
+   "minor_share_at_max": 0.445,
+   "gain_2phase": 22.620626413157563,
+   "max_sigma_c": 0.0027,
+   "retention_300": 55.5,
+   "two_phase": true
+  },
+  {
+   "sample": "project B",
+   "max_misfit_1phase": 0.18005844054088158,
+   "at_V": 4.3,
+   "dc_at_max": 0.209,
+   "minor_share_at_max": 0.319,
+   "gain_2phase": 49.7502065506862,
+   "max_sigma_c": 0.0029,
+   "retention_300": 82.0,
+   "two_phase": true
+  },
+  {
+   "sample": "project C",
+   "max_misfit_1phase": 0.0010863785132475155,
+   "at_V": 4.5,
+   "dc_at_max": 0.35,
+   "minor_share_at_max": 0.007,
+   "gain_2phase": 1.0128857726790443,
+   "max_sigma_c": 0.0031,
+   "retention_300": 95.0,
+   "two_phase": false
+  }
+ ],
+ "d-LNO dense": {
+  "max_misfit_1phase": 0.0014791211919448172,
+  "at_V": 4.316,
+  "max_sigma_c": 0.1572,
+  "sigma_c_peak_V": 4.537,
+  "f_H3_50pct_V": 4.293558823529412
+ }
+}
