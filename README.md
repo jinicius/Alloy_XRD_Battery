@@ -25,6 +25,7 @@ src/
           ml2_gp_surrogate.py     [ML2] 소성 시간 → 구조 → 성능 가우시안 프로세스 대리 모델
           ml3_nmf_bic.py          [ML3 첫 시도] NMF 상 분해·끝점 혼합 검정, [ML4] 1 vs 2봉우리 BIC
           ml3b_phase_template.py  [ML3 개정] 대칭/비대칭 pseudo-Voigt BIC, 이동 허용 기준 패턴 분해, 구조–유지율 비교
+          ml5_sintering_xrd.py    [ML5 응용] 소성 in-situ XRD: JMAK·Arrhenius·결정 성장·ex/in-situ, (003) 판독 vs Rietveld
 tools/    fix_team_excel.py       팀 엑셀 검토 후 수정
           poster_figs_v1/v2.py    포스터용 영문 그림
 results/  figures/, ml/           실행 결과 그림·표 (재현 확인용)
@@ -47,6 +48,7 @@ python src/ml/ml1_changepoint.py data/source_data.xlsx data/project.xlsx out/
 python src/ml/ml2_gp_surrogate.py data/source_data.xlsx out/
 python -W ignore src/ml/ml3_nmf_bic.py data/source_data.xlsx data/project.xlsx out/   # 5~6분
 python src/ml/ml3b_phase_template.py data/source_data.xlsx data/project.xlsx out/     # 약 10분
+python src/ml/ml5_sintering_xrd.py data/source_data.xlsx out/                         # 약 20초
 ```
 
 ## 판독 기준 (팀 공통)
@@ -70,6 +72,7 @@ python src/ml/ml3b_phase_template.py data/source_data.xlsx data/project.xlsx out
 | ML1 변화점 | s-LNO 붕괴 시작 4.22 V, d-LNO 4.29 V (95 % CI ±0.01 V). dQ/dV 봉우리는 둘 다 ~4.19 V → d-LNO는 전기화학 반응과 격자 붕괴가 약 90 mV 어긋남 |
 | ML2 GP 대리 모델 | 암염상 비율 ↔ 용량 ρ = −1, ↔ 유지율 ρ = +1 (n = 6). 50사이클 후 남는 용량은 6~36 h에서 평평(192~196 mAh/g) |
 | ML3 상 분해 | NMF는 봉우리 이동 때문에 실패 → 이동 허용 기준 패턴 분해로 개정. s-LNO 4.30 V만 단일상으로 설명 안 됨(불일치가 d-LNO 최대의 6~8배), d-LNO는 한 상의 c 분포가 0.16 Å까지 넓어지며 연속 수축. 2상 성격이 강할수록 300사이클 유지율 낮음 (논문 s<d, 과제 A<B<C) |
+| ML5 응용 | 소성 중 층상 분율 JMAK n ≈ 1(기존 핵 성장), 약 91 %에서 급감속, Ea ≈ 135 kJ/mol(2점). (003) 면적 비율이 Rietveld 분율과 r = 0.999, c값 0.006 Å 이내 일치 |
 | ML4 BIC | 과제 데이터: 4.30 V A·B만 2봉우리(ΔBIC 2160, 1707). 논문 실측은 비대칭 pseudo-Voigt로 바꿔도 전 구간 2봉우리 선호 → 상대 비교만 유효 |
 
 ## 출처

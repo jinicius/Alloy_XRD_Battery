@@ -12,4 +12,5 @@ python src/ml/ml1_changepoint.py $SRC $PROJ $OUT/ml
 python src/ml/ml2_gp_surrogate.py $SRC $OUT/ml
 python -W ignore src/ml/ml3_nmf_bic.py $SRC $PROJ $OUT/ml   # 약 5~6분
 python src/ml/ml3b_phase_template.py $SRC $PROJ $OUT/ml   # 약 10분
+python src/ml/ml5_sintering_xrd.py $SRC $OUT/ml
 echo "done -> $OUT/"
